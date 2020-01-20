@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
+
 export default class Home extends React.Component {
   constructor(props) {
     super(props)
@@ -31,9 +32,9 @@ export default class Home extends React.Component {
         <h3 className="text-center mb-5"> ProHire</h3>
         <form class="form-inline my-2 my-lg-0">
            <label for="validationTextarea">Start Date</label>
-          <input class="form-control mr-sm-2" type="seach" placeholder="From" aria-label="Search" />
+          <input class="form-control" type="date" value="2020-01-20" id="example-date-input" />
           <label for="validationTextarea">End Date</label>
-          <input class="form-control mr-sm-2" type="search" placeholder="To" aria-label="Search" />
+          <input class="form-control" type="date" value="2020-01-20" id="example-date-input" />
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
         <table class="table table-dark mt-5">

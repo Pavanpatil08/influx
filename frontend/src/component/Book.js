@@ -82,9 +82,11 @@ class Book extends React.Component {
                         <label for="validationTextarea">Email</label>
                         <input class="form-control w-50"  name = "email" onChange = {this.HandleChange}></input>
                     </div>
-                    <button type="submit" class="btn btn-primary">Confirm</button>
-                </form>
-                <Link to="/Home"><button type="submit" className="btn btn-primary "> Back</button></Link>
+                    
+                <Link to="/Trans"><button type="submit" className="btn btn-primary ">Confirm</button></Link>
+                <Link to="/"><button type="submit" className="btn btn-primary ml-5"> Back</button></Link>
+               </form>
+                
             </>
         )
     }
